@@ -1,0 +1,7 @@
+
+iscmd() {
+    command -v >&- "$@"
+}
+
+
+iscmd "chezmoi" && source <(chezmoi completion bash)
