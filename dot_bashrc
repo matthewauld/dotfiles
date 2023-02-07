@@ -32,6 +32,8 @@ export PATH=$PATH:/usr/local/go/bin:/home/$USER/go/bin
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH=$PATH:/home/$USER/bin
 
+# General Settings
+export EDITOR=vi
 # Example aliases
 alias ll="ls -lah"
 alias pyenv="source env/bin/activate"
