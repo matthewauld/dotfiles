@@ -22,6 +22,7 @@ fi
 # Bash Completion
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
+	. /home/$USER/.bash_completion
 fi
 
 # Prompt
